@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundWhite"
+    tools:context=".activity.EmotionAnalysisResultActivity">
+
+    <FrameLayout
+        android:id="@+id/emotion_analysis_result_activity_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewAnalysis"
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:layout_margin="20sp" />
+
+        <TextView
+            android:id="@+id/textViewResult"
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:layout_marginBottom="10sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:background="@drawable/round_border"
+            android:scrollbars="vertical"
+            android:textColor="@color/colorFontBlack"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginEnd="20sp"
+            android:layout_marginRight="20sp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/weChatBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/WeChat" />
+
+            <Button
+                android:id="@+id/main_page_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/main_page"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

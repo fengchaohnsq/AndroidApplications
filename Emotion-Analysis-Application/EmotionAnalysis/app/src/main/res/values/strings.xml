@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Emotion Recognition</string>
+    <string name="camera">Mobile Phone Camera</string>
+    <string name="album">Mobile Phone Album</string>
+    <string name="submit">Emotion Analysis</string>
+    <string name="cancel">Cancel Analysis</string>
+    <string name="result_hint">Analysing … …</string>
+    <string name="analysis_fail">Analysis failed, please try again!</string>
+    <string name="new_line">\n</string>
+    <string name="gender">Gender:</string>
+    <string name="age">Age:</string>
+    <string name="emotion">Emotion: </string>
+    <string name="anger">anger:</string>
+    <string name="contempt">contempt:</string>
+    <string name="disgust">disgust:</string>
+    <string name="fear">fear:</string>
+    <string name="happiness">happiness:</string>
+    <string name="neutral">neutral:</string>
+    <string name="sadness">sadness:</string>
+    <string name="surprise">surprise:</string>
+    <string name="face">Face{0} Analysis Result: </string>
+    <string name="main_page">Main Page</string>
+    <string name="WeChat">WeChat</string>
+</resources>
