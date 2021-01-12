@@ -40,5 +40,3 @@ This app mainly includes four features and one optional feature. Those main feat
 3.Emotion recognition feature, this app will upload the photo to server for photo emotion analysing.
 
 4.Display feature, this app will display the analysing results for users.
-
-5.Sharing feature(optional), the user can forward the result to their Facebook or WeChat(optional).
